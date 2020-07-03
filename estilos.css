@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: "fuenteChevere";
+    src: url("./fonts/HippieMovement.ttf");
+}
+
+h1 { font-family: "fuenteChevere", serif }
+
+body {
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a { font-family: "fuenteChevere", serif
+
+}
+
+body {
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+    
+.indice li {
+    font-size: 200%;
+    text-align: center;
+    background-color: #5D6D7E88;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.indice > ul {
+    color: #780505;
+    list-style: none;
+    display: inline-flex;
+    font-family: "fuenteChevere", serif;
+
+}
+
+.indice > ul:visited {
+    color: #780505;
+}
+
+.indice li:hover {
+    color: #FFFF00;
+    margin: 8px;
+    padding: 8px;
+ 
+    
+}
+.contenido {
+    background-color: #207A4C88;
+    padding: 100px;
+    margin-top: 20px;
+
+}
+
+.descripcion{
+    background-color: #202B7A88;
+    text-align: center;
+}
+
+@media (min-width: 800px){body{
+    padding: 100px;
+}
+
+
+
+
+}
+@media (max-width: 800px)
+
+{
+    body{
+    padding: 75px;
+}
+
+
+    
+}
+body{
+    padding: 100px;
+}
+
+.header{
+    background-color: #652B4888;
+    text-align: center;
+
+}
+
+.content{
+
+    background-color: #5D6D7E88;
+    padding: 25px;
+
+    
+}
+
+.titulo {
+
+    text-align: center;
+    font-size: 400%;
+
+}
+
+.integrante {
+    background-color: #652B4888;
+    margin: 25px;
+
+    overflow: hidden;
+    
+}
+
+.integrante > h2{
+    
+}
+
+.integrante > p {   
+    
+}
+
+.integrante > img{
+    
+    width: 20%;
+    float: right;
+    
+    
+}
+
+.hidden{
+
+    display: none;
+}
